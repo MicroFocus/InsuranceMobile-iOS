@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recorderProject version="17.5">
+  <applicationConfiguration>
+    <connectionString>deviceName=iPhone 5s;platformName=iOS;platformVersion=9.3;isSimulator=true;host=borlandbook1;app=\\lnz-data\Exchange\RalphM\InsuranceMobile\InsuranceMobile.zip</connectionString>
+    <baseStateInfo>
+      <locator>/MobileDevice</locator>
+    </baseStateInfo>
+  </applicationConfiguration>
+  <agentOptions>
+    <entry>
+      <string>OPT_TRUELOG_SCREENSHOT_MODE</string>
+      <int>1</int>
+    </entry>
+    <entry>
+      <string>OPT_ASSET_NAMESPACE</string>
+      <string>Mobile - InsuranceMobile (iOS)</string>
+    </entry>
+  </agentOptions>
+</recorderProject>

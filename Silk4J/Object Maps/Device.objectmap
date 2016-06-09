@@ -1,0 +1,35 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="Device" locator="/MobileDevice">
+    <ObjectMapEntry id="1 agent found" locator="//MobileObject[@label=&apos;1 agent found&apos;]"/>
+    <ObjectMapEntry id="36" locator="//MobileTextField[@caption=&apos;36&apos;]"/>
+    <ObjectMapEntry id="6 agents found" locator="//MobileObject[@label=&apos;6 agents found&apos;]"/>
+    <ObjectMapEntry id="About" locator="//MobileObject[@label=&apos;About&apos;]"/>
+    <ObjectMapEntry id="Agent Lookup" locator="//MobileObject[@label=&apos;Agent Lookup&apos;]"/>
+    <ObjectMapEntry id="Auto Quote" locator="//MobileObject[@label=&apos;Auto Quote&apos;]"/>
+    <ObjectMapEntry id="Automobile Information" locator="//MobileObject[@name=&apos;Automobile Information&apos;][3]"/>
+    <ObjectMapEntry id="Back" locator="//MobileObject[@name=&apos;Back&apos;]"/>
+    <ObjectMapEntry id="Car" locator="//MobileObject[@name=&apos;Car&apos;]"/>
+    <ObjectMapEntry id="Email" locator="//MobileObject[@caption=&apos;Email&apos;]"/>
+    <ObjectMapEntry id="Good" locator="//MobileObject[@name=&apos;Good&apos;]"/>
+    <ObjectMapEntry id="Hilux" locator="//MobileObject[@label=&apos;Hilux&apos;]"/>
+    <ObjectMapEntry id="john smith gmail com" locator="//MobileTextField[@caption=&apos;john.smith@gmail.com&apos;]"/>
+    <ObjectMapEntry id="Login" locator="//MobileObject[@name=&apos;Login&apos;][3]"/>
+    <ObjectMapEntry id="Logout" locator="//MobileObject[@label=&apos;Logout&apos;]"/>
+    <ObjectMapEntry id="Male" locator="//MobileObject[@name=&apos;Male&apos;]"/>
+    <ObjectMapEntry id="menu" locator="//MobileObject[@name=&apos;menu&apos;]"/>
+    <ObjectMapEntry id="Name" locator="//MobileTextField[@caption=&apos;Name&apos;]"/>
+    <ObjectMapEntry id="Own" locator="//MobileObject[@name=&apos;Own&apos;]"/>
+    <ObjectMapEntry id="Password" locator="//MobileObject[@caption=&apos;Password&apos;]"/>
+    <ObjectMapEntry id="Personal Data" locator="//MobileObject[@name=&apos;Personal Data&apos;][3]"/>
+    <ObjectMapEntry id="Search" locator="//MobileObject[@name=&apos;Search&apos;][2]"/>
+    <ObjectMapEntry id="Search by agent name" locator="//MobileObject[@name=&apos;Search by agent name&apos;][3]"/>
+    <ObjectMapEntry id="Search4" locator="//MobileObject[@name=&apos;Search&apos;][4]"/>
+    <ObjectMapEntry id="Select" locator="//MobileObject[@name=&apos;Select&apos;]"/>
+    <ObjectMapEntry id="Submit" locator="//MobileObject[@label=&apos;Submit&apos;]"/>
+    <ObjectMapEntry id="Toyota" locator="//MobileObject[@label=&apos;Toyota&apos;]"/>
+    <ObjectMapEntry id="Year" locator="//MobileTextField[@caption=&apos;Year&apos;]"/>
+    <ObjectMapEntry id="Your Instant Quote is 1300 0 every twelve months" locator="//MobileObject[@name=&apos;Your Instant Quote is 1300.0 every twelve months.&apos;]"/>
+    <ObjectMapEntry id="Zip Code" locator="//MobileObject[@caption=&apos;Zip Code&apos;]"/>
+    <ObjectMapEntry id="Zip Code TextField" locator="//MobileTextField[@caption=&apos;Zip Code&apos;]"/>
+  </ObjectMapEntry>
+</ObjectMap>
