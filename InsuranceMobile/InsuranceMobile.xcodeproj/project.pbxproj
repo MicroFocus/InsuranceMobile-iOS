@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F6C4FF91C5C9A870045B8F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C4FF81C5C9A870045B8F9 /* AppDelegate.swift */; };
+		1F6C4FFB1C5C9A870045B8F9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C4FFA1C5C9A870045B8F9 /* LoginViewController.swift */; };
+		1F6C4FFE1C5C9A870045B8F9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6C4FFC1C5C9A870045B8F9 /* Login.storyboard */; };
+		1F6C50031C5C9A870045B8F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6C50011C5C9A870045B8F9 /* LaunchScreen.storyboard */; };
+		1F6C500E1C5C9A870045B8F9 /* InsuranceMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C500D1C5C9A870045B8F9 /* InsuranceMobileTests.swift */; };
+		1F6C50191C5C9A870045B8F9 /* InsuranceMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C50181C5C9A870045B8F9 /* InsuranceMobileUITests.swift */; };
+		1F6C50291C5CA6E90045B8F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6C50281C5CA6E90045B8F9 /* Main.storyboard */; };
+		1F6C502D1C5CAB080045B8F9 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C502C1C5CAB080045B8F9 /* SWRevealViewController.m */; };
+		1F6C50341C5CB2840045B8F9 /* AutoQuoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C50331C5CB2840045B8F9 /* AutoQuoteViewController.swift */; };
+		1F6C50361C5CB5D80045B8F9 /* AgentLookupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C50351C5CB5D80045B8F9 /* AgentLookupViewController.swift */; };
+		1F6C50411C5CB7790045B8F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6C50401C5CB7790045B8F9 /* Assets.xcassets */; };
+		1F6C50451C5CB8540045B8F9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C50441C5CB8540045B8F9 /* MenuViewController.swift */; };
+		1F6C50471C5CE24C0045B8F9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C50461C5CE24C0045B8F9 /* HomeViewController.swift */; };
+		1F6C50491C5CE9630045B8F9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C50481C5CE9630045B8F9 /* User.swift */; };
+		1F6C504B1C5D01C40045B8F9 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C504A1C5D01C40045B8F9 /* LogoutViewController.swift */; };
+		1F6C504D1C5D0E2A0045B8F9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C504C1C5D0E2A0045B8F9 /* SignUpViewController.swift */; };
+		1F6C504F1C5D2F660045B8F9 /* AgentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C504E1C5D2F660045B8F9 /* AgentListViewController.swift */; };
+		1F6C50511C5D38550045B8F9 /* Agent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C50501C5D38550045B8F9 /* Agent.swift */; };
+		1F6C50531C5D43110045B8F9 /* AgentDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6C50521C5D43110045B8F9 /* AgentDetailsViewController.swift */; };
+		1FB32E581C5E554400C3C212 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB32E571C5E554400C3C212 /* AboutViewController.swift */; };
+		1FB509E91C5F7D440024A963 /* SelectMakeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB509E81C5F7D440024A963 /* SelectMakeViewController.swift */; };
+		1FB509EB1C5F7E000024A963 /* Make.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB509EA1C5F7E000024A963 /* Make.swift */; };
+		1FB509ED1C5F7FDE0024A963 /* SelectModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB509EC1C5F7FDE0024A963 /* SelectModelViewController.swift */; };
+		1FB509EF1C5F97090024A963 /* QuoteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB509EE1C5F97090024A963 /* QuoteDetailsViewController.swift */; };
+		1FB840961C5DFFB00059B0C3 /* TextFieldUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB840951C5DFFB00059B0C3 /* TextFieldUtils.swift */; };
+		1FB840991C5E06E60059B0C3 /* AsyncUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB840981C5E06E60059B0C3 /* AsyncUtils.swift */; };
+		1FB8409C1C5E2D550059B0C3 /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB8409B1C5E2D550059B0C3 /* UIUtils.swift */; };
+		CA6F53141C6205C60096BA1A /* about.html in Resources */ = {isa = PBXBuildFile; fileRef = CA6F53131C6205C60096BA1A /* about.html */; };
+		CACA2E4B1C8B0C7500B3091B /* PickDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACA2E4A1C8B0C7500B3091B /* PickDateViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F6C500A1C5C9A870045B8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6C4FED1C5C9A870045B8F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6C4FF41C5C9A870045B8F9;
+			remoteInfo = InsuranceMobile;
+		};
+		1F6C50151C5C9A870045B8F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F6C4FED1C5C9A870045B8F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F6C4FF41C5C9A870045B8F9;
+			remoteInfo = InsuranceMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F6C4FF51C5C9A870045B8F9 /* InsuranceMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InsuranceMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6C4FF81C5C9A870045B8F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F6C4FFA1C5C9A870045B8F9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1F6C4FFD1C5C9A870045B8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		1F6C50021C5C9A870045B8F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F6C50041C5C9A870045B8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6C50091C5C9A870045B8F9 /* InsuranceMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6C500D1C5C9A870045B8F9 /* InsuranceMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceMobileTests.swift; sourceTree = "<group>"; };
+		1F6C500F1C5C9A870045B8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6C50141C5C9A870045B8F9 /* InsuranceMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InsuranceMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6C50181C5C9A870045B8F9 /* InsuranceMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceMobileUITests.swift; sourceTree = "<group>"; };
+		1F6C501A1C5C9A870045B8F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F6C50281C5CA6E90045B8F9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1F6C502A1C5CAB070045B8F9 /* InsuranceMobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InsuranceMobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		1F6C502B1C5CAB080045B8F9 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		1F6C502C1C5CAB080045B8F9 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		1F6C50331C5CB2840045B8F9 /* AutoQuoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoQuoteViewController.swift; sourceTree = "<group>"; };
+		1F6C50351C5CB5D80045B8F9 /* AgentLookupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentLookupViewController.swift; sourceTree = "<group>"; };
+		1F6C50401C5CB7790045B8F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F6C50441C5CB8540045B8F9 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		1F6C50461C5CE24C0045B8F9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1F6C50481C5CE9630045B8F9 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1F6C504A1C5D01C40045B8F9 /* LogoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
+		1F6C504C1C5D0E2A0045B8F9 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1F6C504E1C5D2F660045B8F9 /* AgentListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentListViewController.swift; sourceTree = "<group>"; };
+		1F6C50501C5D38550045B8F9 /* Agent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Agent.swift; sourceTree = "<group>"; };
+		1F6C50521C5D43110045B8F9 /* AgentDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgentDetailsViewController.swift; sourceTree = "<group>"; };
+		1FB32E571C5E554400C3C212 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1FB509E81C5F7D440024A963 /* SelectMakeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectMakeViewController.swift; sourceTree = "<group>"; };
+		1FB509EA1C5F7E000024A963 /* Make.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Make.swift; sourceTree = "<group>"; };
+		1FB509EC1C5F7FDE0024A963 /* SelectModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectModelViewController.swift; sourceTree = "<group>"; };
+		1FB509EE1C5F97090024A963 /* QuoteDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteDetailsViewController.swift; sourceTree = "<group>"; };
+		1FB840951C5DFFB00059B0C3 /* TextFieldUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldUtils.swift; sourceTree = "<group>"; };
+		1FB840981C5E06E60059B0C3 /* AsyncUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncUtils.swift; sourceTree = "<group>"; };
+		1FB8409B1C5E2D550059B0C3 /* UIUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
+		CA6F53131C6205C60096BA1A /* about.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = about.html; sourceTree = "<group>"; };
+		CACA2E4A1C8B0C7500B3091B /* PickDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickDateViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F6C4FF21C5C9A870045B8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6C50061C5C9A870045B8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6C50111C5C9A870045B8F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6C4FEC1C5C9A870045B8F9 = {
+			isa = PBXGroup;
+			children = (
+				1F6C50401C5CB7790045B8F9 /* Assets.xcassets */,
+				1F6C4FF71C5C9A870045B8F9 /* InsuranceMobile */,
+				1F6C500C1C5C9A870045B8F9 /* InsuranceMobileTests */,
+				1F6C50171C5C9A870045B8F9 /* InsuranceMobileUITests */,
+				1F6C4FF61C5C9A870045B8F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6C4FF61C5C9A870045B8F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C4FF51C5C9A870045B8F9 /* InsuranceMobile.app */,
+				1F6C50091C5C9A870045B8F9 /* InsuranceMobileTests.xctest */,
+				1F6C50141C5C9A870045B8F9 /* InsuranceMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6C4FF71C5C9A870045B8F9 /* InsuranceMobile */ = {
+			isa = PBXGroup;
+			children = (
+				1FB8409A1C5E0E980059B0C3 /* Utils */,
+				1FB840971C5E01F10059B0C3 /* Model */,
+				1F6C502E1C5CAB190045B8F9 /* SWRevealViewController */,
+				1F6C4FF81C5C9A870045B8F9 /* AppDelegate.swift */,
+				1F6C50041C5C9A870045B8F9 /* Info.plist */,
+				1F6C50011C5C9A870045B8F9 /* LaunchScreen.storyboard */,
+				1F6C4FFC1C5C9A870045B8F9 /* Login.storyboard */,
+				1F6C50281C5CA6E90045B8F9 /* Main.storyboard */,
+				1F6C502A1C5CAB070045B8F9 /* InsuranceMobile-Bridging-Header.h */,
+				1F6C4FFA1C5C9A870045B8F9 /* LoginViewController.swift */,
+				1F6C504C1C5D0E2A0045B8F9 /* SignUpViewController.swift */,
+				CACA2E4A1C8B0C7500B3091B /* PickDateViewController.swift */,
+				1F6C50441C5CB8540045B8F9 /* MenuViewController.swift */,
+				1F6C50461C5CE24C0045B8F9 /* HomeViewController.swift */,
+				1F6C50331C5CB2840045B8F9 /* AutoQuoteViewController.swift */,
+				1FB509E81C5F7D440024A963 /* SelectMakeViewController.swift */,
+				1FB509EC1C5F7FDE0024A963 /* SelectModelViewController.swift */,
+				1FB509EE1C5F97090024A963 /* QuoteDetailsViewController.swift */,
+				1F6C50351C5CB5D80045B8F9 /* AgentLookupViewController.swift */,
+				1F6C504E1C5D2F660045B8F9 /* AgentListViewController.swift */,
+				1F6C50521C5D43110045B8F9 /* AgentDetailsViewController.swift */,
+				1FB32E571C5E554400C3C212 /* AboutViewController.swift */,
+				1F6C504A1C5D01C40045B8F9 /* LogoutViewController.swift */,
+				CA6F53131C6205C60096BA1A /* about.html */,
+			);
+			path = InsuranceMobile;
+			sourceTree = "<group>";
+		};
+		1F6C500C1C5C9A870045B8F9 /* InsuranceMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C500D1C5C9A870045B8F9 /* InsuranceMobileTests.swift */,
+				1F6C500F1C5C9A870045B8F9 /* Info.plist */,
+			);
+			path = InsuranceMobileTests;
+			sourceTree = "<group>";
+		};
+		1F6C50171C5C9A870045B8F9 /* InsuranceMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C50181C5C9A870045B8F9 /* InsuranceMobileUITests.swift */,
+				1F6C501A1C5C9A870045B8F9 /* Info.plist */,
+			);
+			path = InsuranceMobileUITests;
+			sourceTree = "<group>";
+		};
+		1F6C502E1C5CAB190045B8F9 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C502B1C5CAB080045B8F9 /* SWRevealViewController.h */,
+				1F6C502C1C5CAB080045B8F9 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		1FB840971C5E01F10059B0C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1F6C50481C5CE9630045B8F9 /* User.swift */,
+				1F6C50501C5D38550045B8F9 /* Agent.swift */,
+				1FB509EA1C5F7E000024A963 /* Make.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1FB8409A1C5E0E980059B0C3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1FB840981C5E06E60059B0C3 /* AsyncUtils.swift */,
+				1FB840951C5DFFB00059B0C3 /* TextFieldUtils.swift */,
+				1FB8409B1C5E2D550059B0C3 /* UIUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F6C4FF41C5C9A870045B8F9 /* InsuranceMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6C501D1C5C9A870045B8F9 /* Build configuration list for PBXNativeTarget "InsuranceMobile" */;
+			buildPhases = (
+				1F6C4FF11C5C9A870045B8F9 /* Sources */,
+				1F6C4FF21C5C9A870045B8F9 /* Frameworks */,
+				1F6C4FF31C5C9A870045B8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InsuranceMobile;
+			productName = InsuranceMobile;
+			productReference = 1F6C4FF51C5C9A870045B8F9 /* InsuranceMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F6C50081C5C9A870045B8F9 /* InsuranceMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6C50201C5C9A870045B8F9 /* Build configuration list for PBXNativeTarget "InsuranceMobileTests" */;
+			buildPhases = (
+				1F6C50051C5C9A870045B8F9 /* Sources */,
+				1F6C50061C5C9A870045B8F9 /* Frameworks */,
+				1F6C50071C5C9A870045B8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6C500B1C5C9A870045B8F9 /* PBXTargetDependency */,
+			);
+			name = InsuranceMobileTests;
+			productName = InsuranceMobileTests;
+			productReference = 1F6C50091C5C9A870045B8F9 /* InsuranceMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F6C50131C5C9A870045B8F9 /* InsuranceMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6C50231C5C9A870045B8F9 /* Build configuration list for PBXNativeTarget "InsuranceMobileUITests" */;
+			buildPhases = (
+				1F6C50101C5C9A870045B8F9 /* Sources */,
+				1F6C50111C5C9A870045B8F9 /* Frameworks */,
+				1F6C50121C5C9A870045B8F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F6C50161C5C9A870045B8F9 /* PBXTargetDependency */,
+			);
+			name = InsuranceMobileUITests;
+			productName = InsuranceMobileUITests;
+			productReference = 1F6C50141C5C9A870045B8F9 /* InsuranceMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6C4FED1C5C9A870045B8F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Silk Test";
+				TargetAttributes = {
+					1F6C4FF41C5C9A870045B8F9 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = LTVJ2JUU25;
+					};
+					1F6C50081C5C9A870045B8F9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1F6C4FF41C5C9A870045B8F9;
+					};
+					1F6C50131C5C9A870045B8F9 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1F6C4FF41C5C9A870045B8F9;
+					};
+				};
+			};
+			buildConfigurationList = 1F6C4FF01C5C9A870045B8F9 /* Build configuration list for PBXProject "InsuranceMobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F6C4FEC1C5C9A870045B8F9;
+			productRefGroup = 1F6C4FF61C5C9A870045B8F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6C4FF41C5C9A870045B8F9 /* InsuranceMobile */,
+				1F6C50081C5C9A870045B8F9 /* InsuranceMobileTests */,
+				1F6C50131C5C9A870045B8F9 /* InsuranceMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F6C4FF31C5C9A870045B8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6C50031C5C9A870045B8F9 /* LaunchScreen.storyboard in Resources */,
+				1F6C50291C5CA6E90045B8F9 /* Main.storyboard in Resources */,
+				1F6C50411C5CB7790045B8F9 /* Assets.xcassets in Resources */,
+				CA6F53141C6205C60096BA1A /* about.html in Resources */,
+				1F6C4FFE1C5C9A870045B8F9 /* Login.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6C50071C5C9A870045B8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6C50121C5C9A870045B8F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F6C4FF11C5C9A870045B8F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6C504D1C5D0E2A0045B8F9 /* SignUpViewController.swift in Sources */,
+				1F6C504F1C5D2F660045B8F9 /* AgentListViewController.swift in Sources */,
+				1FB509E91C5F7D440024A963 /* SelectMakeViewController.swift in Sources */,
+				1F6C50361C5CB5D80045B8F9 /* AgentLookupViewController.swift in Sources */,
+				1FB840961C5DFFB00059B0C3 /* TextFieldUtils.swift in Sources */,
+				1FB8409C1C5E2D550059B0C3 /* UIUtils.swift in Sources */,
+				1F6C50531C5D43110045B8F9 /* AgentDetailsViewController.swift in Sources */,
+				CACA2E4B1C8B0C7500B3091B /* PickDateViewController.swift in Sources */,
+				1F6C4FFB1C5C9A870045B8F9 /* LoginViewController.swift in Sources */,
+				1F6C50511C5D38550045B8F9 /* Agent.swift in Sources */,
+				1F6C50471C5CE24C0045B8F9 /* HomeViewController.swift in Sources */,
+				1FB32E581C5E554400C3C212 /* AboutViewController.swift in Sources */,
+				1F6C50451C5CB8540045B8F9 /* MenuViewController.swift in Sources */,
+				1FB509EB1C5F7E000024A963 /* Make.swift in Sources */,
+				1FB840991C5E06E60059B0C3 /* AsyncUtils.swift in Sources */,
+				1FB509ED1C5F7FDE0024A963 /* SelectModelViewController.swift in Sources */,
+				1F6C50491C5CE9630045B8F9 /* User.swift in Sources */,
+				1F6C4FF91C5C9A870045B8F9 /* AppDelegate.swift in Sources */,
+				1F6C50341C5CB2840045B8F9 /* AutoQuoteViewController.swift in Sources */,
+				1FB509EF1C5F97090024A963 /* QuoteDetailsViewController.swift in Sources */,
+				1F6C504B1C5D01C40045B8F9 /* LogoutViewController.swift in Sources */,
+				1F6C502D1C5CAB080045B8F9 /* SWRevealViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6C50051C5C9A870045B8F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6C500E1C5C9A870045B8F9 /* InsuranceMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6C50101C5C9A870045B8F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6C50191C5C9A870045B8F9 /* InsuranceMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F6C500B1C5C9A870045B8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6C4FF41C5C9A870045B8F9 /* InsuranceMobile */;
+			targetProxy = 1F6C500A1C5C9A870045B8F9 /* PBXContainerItemProxy */;
+		};
+		1F6C50161C5C9A870045B8F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F6C4FF41C5C9A870045B8F9 /* InsuranceMobile */;
+			targetProxy = 1F6C50151C5C9A870045B8F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F6C4FFC1C5C9A870045B8F9 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6C4FFD1C5C9A870045B8F9 /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		1F6C50011C5C9A870045B8F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6C50021C5C9A870045B8F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F6C501B1C5C9A870045B8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Silk Test (M6QJ492F2G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Silk Test (M6QJ492F2G)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6ad48283-8f07-4c6e-9a0e-16103efba7f9";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F6C501C1C5C9A870045B8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Silk Test (M6QJ492F2G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Silk Test (M6QJ492F2G)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6ad48283-8f07-4c6e-9a0e-16103efba7f9";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F6C501E1C5C9A870045B8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Silk Test (M6QJ492F2G)";
+				INFOPLIST_FILE = InsuranceMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silktest.InsuranceMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6ad48283-8f07-4c6e-9a0e-16103efba7f9";
+				SWIFT_OBJC_BRIDGING_HEADER = "InsuranceMobile/InsuranceMobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F6C501F1C5C9A870045B8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Silk Test (M6QJ492F2G)";
+				INFOPLIST_FILE = InsuranceMobile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silktest.InsuranceMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6ad48283-8f07-4c6e-9a0e-16103efba7f9";
+				SWIFT_OBJC_BRIDGING_HEADER = "InsuranceMobile/InsuranceMobile-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F6C50211C5C9A870045B8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsuranceMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silktest.InsuranceMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsuranceMobile.app/InsuranceMobile";
+			};
+			name = Debug;
+		};
+		1F6C50221C5C9A870045B8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InsuranceMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silktest.InsuranceMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InsuranceMobile.app/InsuranceMobile";
+			};
+			name = Release;
+		};
+		1F6C50241C5C9A870045B8F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsuranceMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silktest.InsuranceMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InsuranceMobile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F6C50251C5C9A870045B8F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InsuranceMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = silktest.InsuranceMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InsuranceMobile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F6C4FF01C5C9A870045B8F9 /* Build configuration list for PBXProject "InsuranceMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6C501B1C5C9A870045B8F9 /* Debug */,
+				1F6C501C1C5C9A870045B8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6C501D1C5C9A870045B8F9 /* Build configuration list for PBXNativeTarget "InsuranceMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6C501E1C5C9A870045B8F9 /* Debug */,
+				1F6C501F1C5C9A870045B8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6C50201C5C9A870045B8F9 /* Build configuration list for PBXNativeTarget "InsuranceMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6C50211C5C9A870045B8F9 /* Debug */,
+				1F6C50221C5C9A870045B8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6C50231C5C9A870045B8F9 /* Build configuration list for PBXNativeTarget "InsuranceMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6C50241C5C9A870045B8F9 /* Debug */,
+				1F6C50251C5C9A870045B8F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6C4FED1C5C9A870045B8F9 /* Project object */;
+}
