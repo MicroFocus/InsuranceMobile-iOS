@@ -8,7 +8,7 @@ InsuranceMobile is a sample mobile application available for Android and iOS pro
 2. Check-Out Sample Scripts
 	```
 	bash
-	git clone git://github.com/MicroFocus/InsuranceMobile-Android.git
+	git clone git://github.com/MicroFocus/InsuranceMobile-iOS.git
 	```
 
 ## License
